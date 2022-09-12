@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @f1lcry
-- 😎 I’m full-stack developer for one year (at the time of creation the GitHub profile)
+- 😎 I’m full-stack developer since summer 2021
 - 🌱 I’m currently learning jquery, ajax and game development
 - 💪 I’m looking for a job or some like-minded people
 - 📫 How to reach me:
