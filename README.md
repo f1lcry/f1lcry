@@ -7,7 +7,7 @@
 - 📱 My social media:
   - instagram/twitter: @f1lsm1rom
   - telegram channel: https://t.me/philyan
-  - telegram channel for crypto: https://t.me/f1lcry
+  - telegram channel for trading: https://t.me/f1lcry
 
 <!---
 f1lcry/f1lcry is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
