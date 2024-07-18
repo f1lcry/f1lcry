@@ -5,8 +5,8 @@
 - 📫 How to reach me:
   - email: fsr.filipp@gmail.com
 - 📱 My social media:
-  - instagram/twitter: @f1lsm1rom
-  - telegram channel: https://t.me/philyan
+  - instagram/twitter: @f1lcry
+  - personal telegram: https://t.me/f1lsm1rom
   - telegram channel for trading: https://t.me/f1lcry
 
 <!---
