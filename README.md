@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @f1lcry
 - 😎 I’m full-stack developer since summer 2021
 - 🌱 I’m currently learning jquery, ajax and game development
-- 💪 I’m looking for a job or some like-minded people
+- 💪 I’m looking for like-minded people
 - 📫 How to reach me:
   - email: fsr.filipp@gmail.com
 - 📱 My social media:
