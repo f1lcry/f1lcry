@@ -101,14 +101,14 @@ Currently building a crypto banking project for LATAM and running live algorithm
 
 ---
 
-### Contribution Snake 🐍
+### Contributions
 
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/f1lcry/f1lcry/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/f1lcry/f1lcry/output/github-snake.svg" />
-  <img alt="Snake eating my contributions" src="https://raw.githubusercontent.com/f1lcry/f1lcry/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/f1lcry/f1lcry/output/github-snake-dark.gif" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/f1lcry/f1lcry/output/github-snake.gif" />
+  <img alt="Contribution grid animation" src="https://raw.githubusercontent.com/f1lcry/f1lcry/output/github-snake-dark.gif" />
 </picture>
 
 </div>
