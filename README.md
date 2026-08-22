@@ -1,3 +1,5 @@
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:2CA5E0,100:0D1117&height=180&section=header&text=f1lcry&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=automate%20%C2%B7%20build%20%C2%B7%20trade&descSize=18&descAlignY=58" alt="header" />
+
 <div align="center">
 
 # Hey, I'm Philipp 👋
@@ -118,3 +120,5 @@ Currently building a crypto banking project for LATAM and running live algorithm
 *Building things that make money or save time — preferably both.*
 
 </div>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:2CA5E0,100:0D1117&height=110&section=footer" alt="footer" />
