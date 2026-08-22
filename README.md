@@ -2,10 +2,14 @@
 
 # Hey, I'm Philipp 👋
 
-**Builder · Developer · Trader**
+<a href="https://github.com/f1lcry">
+  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=2CA5E0&center=true&vCenter=true&width=600&lines=Builder+%C2%B7+Developer+%C2%B7+Trader;Automation+%26+data+pipelines;Algorithmic+trading+on+real+capital;If+it+can+be+automated%2C+it+will+be.;If+it+can+be+traded%2C+it+already+is." alt="Typing SVG" />
+</a>
 
 I build products at the intersection of software, finance, and Web3.
 2nd-year student at HSE University · 5+ years in markets · Writing code since 2021.
+
+![Profile views](https://komarev.com/ghpvc/?username=f1lcry&color=2CA5E0&style=flat)
 
 [![Telegram](https://img.shields.io/badge/Telegram-@f1lcry-2CA5E0?style=flat&logo=telegram&logoColor=white)](https://t.me/f1lcry)
 [![X](https://img.shields.io/badge/X-@f1lcry-000000?style=flat&logo=x&logoColor=white)](https://twitter.com/f1lcry)
@@ -83,6 +87,26 @@ Currently building a crypto banking project for LATAM and running live algorithm
 
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=f1lcry&theme=github_dark" height="165" />
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=f1lcry&theme=github_dark&utcOffset=3" height="165" />
+
+<img src="https://streak-stats.demolab.com/?user=f1lcry&theme=github-dark-blue&hide_border=true&background=0D1117" alt="GitHub Streak" />
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=f1lcry&theme=github-compact&hide_border=true&bg_color=0D1117&color=2CA5E0&line=2CA5E0&point=FFFFFF&area=true" alt="Contribution Graph" width="95%" />
+
+<img src="https://github-profile-trophy.vercel.app/?username=f1lcry&theme=darkhub&no-frame=true&no-bg=true&row=1&column=7&margin-w=8" alt="Trophies" width="95%" />
+
+</div>
+
+---
+
+### Contribution Snake 🐍
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/f1lcry/f1lcry/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/f1lcry/f1lcry/output/github-snake.svg" />
+  <img alt="Snake eating my contributions" src="https://raw.githubusercontent.com/f1lcry/f1lcry/output/github-snake-dark.svg" />
+</picture>
 
 </div>
 
