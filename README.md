@@ -92,7 +92,8 @@ Currently building a crypto banking project for LATAM and running live algorithm
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=f1lcry&theme=github-compact&hide_border=true&bg_color=0D1117&color=2CA5E0&line=2CA5E0&point=FFFFFF&area=true" alt="Contribution Graph" width="95%" />
 
-<img src="https://github-profile-trophy.vercel.app/?username=f1lcry&theme=darkhub&no-frame=true&no-bg=true&row=1&column=7&margin-w=8" alt="Trophies" width="95%" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=f1lcry&theme=github_dark" height="165" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=f1lcry&theme=github_dark" height="165" />
 
 </div>
 
