@@ -39,9 +39,19 @@ TOOLTIP_RE = re.compile(r"<tool-tip[^>]*\bfor=\"([^\"]+)\"[^>]*>(.*?)</tool-tip>
 COUNT_RE = re.compile(r"^\s*(\d+)\s+contribution")
 
 
-def fetch_days(user: str) -> list[tuple[date, int]]:
-    """Return [(day, contributions)] ascending, parsed from the public calendar."""
-    req = urllib.request.Request(CONTRIB_URL.format(user=user), headers={"User-Agent": UA})
+def fetch_days(user: str, year: int | None = None) -> list[tuple[date, int]]:
+    """Return [(day, contributions)] ascending, parsed from the public calendar.
+
+    The counts include work in private repositories — anonymously, as GitHub
+    itself renders them — but ONLY while "Include private contributions on my
+    profile" is enabled in the account settings. If these numbers ever collapse
+    to a fraction of reality with no error anywhere, that setting is where to
+    look.
+    """
+    url = CONTRIB_URL.format(user=user)
+    if year is not None:
+        url += f"?from={year}-01-01&to={year}-12-31"
+    req = urllib.request.Request(url, headers={"User-Agent": UA})
     with urllib.request.urlopen(req, timeout=30) as resp:
         html = resp.read().decode("utf-8", "replace")
 
@@ -58,6 +68,8 @@ def fetch_days(user: str) -> list[tuple[date, int]]:
             continue
         days.append((datetime.strptime(day, "%Y-%m-%d").date(), counts.get(cell_id, 0)))
 
+    if year is not None:
+        days = [(d, c) for d, c in days if d.year == year]
     if not days:
         raise SystemExit("no contribution cells parsed — GitHub markup changed")
     days.sort()

@@ -87,10 +87,7 @@ Currently building a crypto banking project for LATAM and running live algorithm
 
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=f1lcry&theme=github_dark" />
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=f1lcry&theme=github_dark" height="165" />
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=f1lcry&theme=github_dark&utcOffset=3" height="165" />
-
-<img src="https://streak-stats.demolab.com/?user=f1lcry&theme=github-dark-blue&hide_border=true&background=0D1117&disable_animations=true" alt="GitHub Streak" />
+<img src="https://raw.githubusercontent.com/f1lcry/f1lcry/output/stats-card.svg" alt="GitHub activity" width="95%" />
 
 <img src="https://raw.githubusercontent.com/f1lcry/f1lcry/output/activity-graph.svg" alt="Contribution Graph" width="95%" />
 

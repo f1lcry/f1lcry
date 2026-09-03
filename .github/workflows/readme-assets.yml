@@ -36,7 +36,7 @@ jobs:
       # No continue-on-error: on failure the job must stop before the push step,
       # so the previous assets stay on `output` instead of being replaced by an
       # incomplete dist/.
-      - name: Generate activity graph
+      - name: Generate activity graph and stats card
         run: |
           # snk runs in Docker as root, so dist/ comes back root-owned and the
           # runner user cannot write into it.
@@ -45,6 +45,13 @@ jobs:
             --user "${{ github.repository_owner }}" \
             --days 31 \
             --out dist/activity-graph.svg
+          python3 scripts/stats_card.py \
+            --user "${{ github.repository_owner }}" \
+            --out dist/stats-card.svg
+        env:
+          # Public REST data only (repo count, stars); the built-in job token
+          # just lifts the 60/hour unauthenticated limit on shared runner IPs.
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v4
