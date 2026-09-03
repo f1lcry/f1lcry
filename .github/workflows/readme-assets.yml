@@ -38,6 +38,9 @@ jobs:
       # incomplete dist/.
       - name: Generate activity graph
         run: |
+          # snk runs in Docker as root, so dist/ comes back root-owned and the
+          # runner user cannot write into it.
+          sudo chown -R "$(id -u):$(id -g)" dist
           python3 scripts/activity_graph.py \
             --user "${{ github.repository_owner }}" \
             --days 31 \
