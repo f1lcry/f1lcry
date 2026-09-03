@@ -1,0 +1,52 @@
+# Both README images live in one workflow on purpose: the push step below
+# replaces the whole `output` branch (crazy-max/ghaction-github-pages defaults to
+# keep_files: false), so a second workflow writing to that branch would delete
+# whatever the first one put there.
+name: Generate README assets
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate snake animations
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-snake.svg?palette=github-light
+            dist/github-snake-dark.svg?palette=github-dark
+            dist/github-snake.gif?palette=github-light
+            dist/github-snake-dark.gif?palette=github-dark
+
+      # Self-hosted replacement for github-readme-activity-graph.vercel.app,
+      # which serves HTTP 402 whenever that public instance hits its spend cap.
+      # No continue-on-error: on failure the job must stop before the push step,
+      # so the previous assets stay on `output` instead of being replaced by an
+      # incomplete dist/.
+      - name: Generate activity graph
+        run: |
+          python3 scripts/activity_graph.py \
+            --user "${{ github.repository_owner }}" \
+            --days 31 \
+            --out dist/activity-graph.svg
+
+      - name: Push to output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
