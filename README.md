@@ -12,7 +12,7 @@ Software engineer in Dubai. I build data-heavy backends, LLM pipelines and nativ
 HSE University · writing code since 2021 · 5+ years in markets.
 
 <a href="https://f1lcry.com">
-  <img src="https://f1lcry.com/assets/og-en-v2.png" alt="f1lcry.com — developer, founder, algo trader" width="100%" />
+  <img src="assets/f1lcry-banner.png" alt="f1lcry.com — developer, founder, algo trader" width="100%" />
 </a>
 
 <a href="https://f1lcry.com"><img src="https://img.shields.io/badge/%E2%86%92%20f1lcry.com-portfolio%2C%20live%20demos%2C%20contact-D7FF3A?style=for-the-badge&labelColor=3A1CFF" alt="f1lcry.com" /></a>
