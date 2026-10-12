@@ -19,8 +19,6 @@ HSE University · writing code since 2021 · 5+ years in markets.
   </picture>
 </a>
 
-![Profile views](https://komarev.com/ghpvc/?username=f1lcry&color=2CA5E0&style=flat)
-
 [![Website](https://img.shields.io/badge/Website-f1lcry.com-3A1CFF?style=flat&logo=googlechrome&logoColor=white)](https://f1lcry.com)
 [![Telegram](https://img.shields.io/badge/Telegram-@f1lcry-2CA5E0?style=flat&logo=telegram&logoColor=white)](https://t.me/f1lcry)
 [![X](https://img.shields.io/badge/X-@f1lcry-000000?style=flat&logo=x&logoColor=white)](https://twitter.com/f1lcry)
@@ -72,7 +70,7 @@ HSE University · writing code since 2021 · 5+ years in markets.
 
 ### How I work
 
-AI-native, with the rigor on my side. I write the spec and the acceptance gate (golden sets, negative-control tests, adversarial reviews, release gates), and coding agents do most of the typing. Most of my 2026 repos are 60–80% agent co-authored, and every engineering metric on this page comes from a test harness or production data.
+I own the architecture and the hard calls: data models, interfaces, failure modes, and what "done" means. Most of my work is with LLMs and automation, both LLM pipelines running in production and the tooling around them. I built my own agent system that turns specs into working code across my repos. That lets me spend my time on system design and product decisions rather than boilerplate, and I hold every change to a measurable bar: golden sets, negative-control tests, adversarial reviews, release gates. Every engineering metric on this page comes from a test harness or production data.
 
 ---
 
