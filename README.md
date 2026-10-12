@@ -13,9 +13,9 @@ HSE University · writing code since 2021 · 5+ years in markets.
 
 <a href="https://f1lcry.com">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/f1lcry-preview-dark.webp" />
-    <source media="(prefers-color-scheme: light)" srcset="assets/f1lcry-preview-light.webp" />
-    <img src="assets/f1lcry-preview-dark.webp" alt="Live preview of f1lcry.com — click to open the full site" width="100%" />
+    <source media="(prefers-color-scheme: dark)" srcset="assets/f1lcry-dark.gif" />
+    <source media="(prefers-color-scheme: light)" srcset="assets/f1lcry-light.gif" />
+    <img src="assets/f1lcry-dark.gif" alt="f1lcry.com" width="100%" />
   </picture>
 </a>
 
